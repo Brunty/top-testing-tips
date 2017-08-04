@@ -1,0 +1,72 @@
+baseURL = "https://toptestingtips.com"
+title = "Top Testing Tips"
+copyright = "Matt Brunt"
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = "UA-60008278-6"
+Paginate = 5
+
+preserveTaxonomyNames = true
+
+[params]
+  description = "A collection of top tips for tip-top tests"
+  dateFormat = "Mon 2 January, 2006"
+  copyrightOwner = "Matt Brunt"
+  copyrightStartYear = "2017"
+  favicon = "favicon.ico"
+  hideEntryNavigation = false
+  customCSS = []
+  customJS = []
+  hideSocialMenu = false
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "•"
+
+[params.opengraph]
+  [params.opengraph.facebook]
+    admins = ""
+    appid = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[social]
+  facebook = ""
+
+[author]
+  name = "Brunty"
+
+[author.social]
+  twitter = "Brunty"
+  github = "Brunty/top-testing-tips"
+
+[permalinks]
+  page = "/:slug/"
+
+#[[menu.main]]
+#  name = "Submit a tip"
+#  weight = -70
+#  identifier = "repository"
+#  url = "https://github.com/Brunty/top-testing-tips/pulls"
+
+[[menu.main]]
+  name = "Home"
+  weight = -70
+  identifier = "home"
+  url = "https://toptestingtips.com"
+
+# Language Configuration
+defaultContentLanguage = "en"
+
+[languages]
+  # edit this block for your own language
+  [languages.en]
+    lang = "en"
+    languageName = "English"
+    weight = 1
+    recentPosts = "Recent tips"
