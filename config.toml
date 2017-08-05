@@ -1,6 +1,6 @@
 baseURL = "https://toptestingtips.com"
 title = "Top Testing Tips"
-copyright = "Matt Brunt"
+copyright = "Top Testing Tips - Matt Brunt"
 
 theme = "minimo"
 
@@ -42,7 +42,7 @@ preserveTaxonomyNames = true
   name = "Brunty"
 
 [author.social]
-  twitter = "Brunty"
+  twitter = "TopTestingTips"
   github = "Brunty/top-testing-tips"
 
 [permalinks]
@@ -58,7 +58,13 @@ preserveTaxonomyNames = true
   name = "Home"
   weight = -70
   identifier = "home"
-  url = "https://toptestingtips.com"
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = -50
+  identifier = "about"
+  url = "/about"
 
 # Language Configuration
 defaultContentLanguage = "en"
