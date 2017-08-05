@@ -1,6 +1,6 @@
 ---
 title: "Named Data Providers"
-date: 2017-08-12T18:07:17+01:00
+date: 2017-08-10T18:07:17+01:00
 draft: true
 categories: ["unit-testing", "data-providers", "naming"]
 tags: ["phpunit", "data-providers", "php"]
