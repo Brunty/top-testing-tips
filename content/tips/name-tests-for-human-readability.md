@@ -2,7 +2,6 @@
 title: "Name Tests For Human Readability"
 date: 2017-08-04T20:59:11+01:00
 draft: false
-author: Brunty
 categories: ["unit-testing"]
 tags: ["phpunit", "kahlan", "php"]
 series: ["The human stuff"]
@@ -28,7 +27,8 @@ When writing a test for this, you may write a test method like so:
 
 class AdderTest extends \PHPUnit\Framework\TestCase
 {    
-    public function testAdd() {
+    public function testAdd()
+    {
         self::assertSame(3, (new Adder)->add(1, 2));
     }
 }
@@ -46,7 +46,8 @@ class AdderTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      */
-    public function it_adds_two_numbers_together() {
+    public function it_adds_two_numbers_together()
+    {
         self::assertSame(3, (new Adder)->add(1, 2));
     }
 }
