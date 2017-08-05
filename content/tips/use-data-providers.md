@@ -2,7 +2,7 @@
 title: "Use Data Providers"
 date: 2017-08-07T19:59:31+01:00
 draft: true
-categories: ["unit-testing", "data-providers"]
+categories: ["unit testing", "data providers"]
 tags: ["phpunit", "data-providers", "php"]
 ---
 You might have a test that you want to run with multiple inputs. Rather than writing tests like so:

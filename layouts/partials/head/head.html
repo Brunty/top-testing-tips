@@ -23,6 +23,34 @@
         .prev-entry ~ .next-entry:before,
         .site-header:after {
             border-color: #5f63c1;
+            border-width: 3px;
+        }
+        body:before {
+            content: " ";
+            position: fixed;
+            width: 100%;
+            background-color: #5f63c1;
+            height: 6px;
+            top: 0;
+        }
+        .entry-title {
+            color: #5053a2;
+        }
+        .entry-content a:hover {
+            border-color: #5053a2;
+        }
+        .posted-on {
+            color: #969eb5;
+        }
+        .entry p > code {
+            border: 1px solid #bcbcbc;
+            padding: 3px;
+            font-size: 14px;
+            border-radius: 3px;
+            background-color: #f6f6f6
+        }
+        .series-icon {
+            margin-right: .4444444444444444em;
         }
     </style>
 </head>

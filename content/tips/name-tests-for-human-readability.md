@@ -2,7 +2,7 @@
 title: "Name Tests For Human Readability"
 date: 2017-08-04T20:59:11+01:00
 draft: false
-categories: ["unit-testing"]
+categories: ["unit testing"]
 tags: ["phpunit", "kahlan", "php"]
 series: ["The human stuff"]
 ---
