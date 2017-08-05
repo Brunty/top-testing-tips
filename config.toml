@@ -11,7 +11,7 @@ Paginate = 5
 preserveTaxonomyNames = true
 
 [params]
-  description = "A collection of top tips for tip-top tests"
+  description = "A collection of top tips for tip-top tests - new tips every Monday and Thursday!"
   dateFormat = "Mon 2 January, 2006"
   copyrightOwner = "Matt Brunt"
   copyrightStartYear = "2017"
