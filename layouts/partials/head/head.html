@@ -3,9 +3,26 @@
     <base href='{{ .Site.BaseURL }}'>
     <title>{{ partial "data/title" . }}</title>
     <link rel='canonical' href='{{ .Permalink }}'>
-    <link href='{{ .RSSLink }}' rel='alternate' type='application/rss+xml' title='{{ .Site.Title }}' />
+    <link href='{{ .RSSLink }}' rel='alternate' type='application/rss+xml' title='{{ .Site.Title }}'/>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/railscasts.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     {{ partial "head/includes" . }}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5f63c1">
+    <meta name="theme-color" content="#5f63c1">
+    <style>
+        .comments-container #disqus_thread:before,
+        .entry + .list-container:before,
+        .entry-header:after,
+        .entry-nav-links:before,
+        .footer:before,
+        .prev-entry ~ .next-entry:before,
+        .site-header:after {
+            border-color: #5f63c1;
+        }
+    </style>
 </head>
