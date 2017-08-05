@@ -4,7 +4,7 @@
     <title>{{ partial "data/title" . }}</title>
     <link rel='canonical' href='{{ .Permalink }}'>
     <link href='{{ .RSSLink }}' rel='alternate' type='application/rss+xml' title='{{ .Site.Title }}'/>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/railscasts.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/github-gist.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     {{ partial "head/includes" . }}
@@ -51,6 +51,12 @@
         }
         .series-icon {
             margin-right: .4444444444444444em;
+        }
+        pre {
+            background: none;
+            padding: 10px;
+            border: 1px solid #bcbcbc;
+            border-radius: 5px;
         }
     </style>
 </head>
