@@ -1,5 +1,5 @@
 ---
-title: "Use Data Providers"
+title: "Using Data Providers"
 date: 2017-08-07T12:06:31+01:00
 draft: false
 categories: ["unit testing", "data providers"]
