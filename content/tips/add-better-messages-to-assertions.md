@@ -1,5 +1,5 @@
 ---
-title: "Add Error Messages To Assertions"
+title: "Add Better Messages To Assertions"
 date: 2017-08-17T12:55:23+01:00
 draft: false
 categories: ["unit testing"]
